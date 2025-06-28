@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="gardden.css">
+  <script src="https://kit.fontawesome.com/8b4847f536.js" crossorigin="anonymous"></script>
+  <!-- uikit -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/css/uikit.min.css" />
+  <!-- online link -->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- IMG LINK -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!----- nav--- -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary position-sticky  w-100 z-2">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logo-black.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- section 01 -->
+  <!-- header -->
+  <div class="container-fluid p-0">
+    <div class="row bg_1">
+      <div class="col-6 tex_1 p-0">
+        <h1><b>Green Environments <br> Make You Happy and <br> provide Oxygen</b></h1>
+        <h4><b>We Provide Beautiful Gardening & Landscaping</b></h4>
+        <div class="row justify-content-center">
+          <div class="col-6 p-0 ">
+            <button type="button" class="btn btn-outline-success">Explore More</button>
+            <button type="button" class="btn btn-outline-success mx-2">How It Work</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 p-0 position-relative">
+        <img src="img/shape-2.png" alt="" class="ms-3 img1 " height="100%" width="100%">
+        <img class="img2" src="./img/hero-three_one.jpg" alt="">
+      </div>
+    </div>
+    <!-- section 02 -->
+    <div class="section_02">
+      <div class="uk-child-width-1-3@m" uk-grid
+        uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 300; repeat: true">
+        <div class="my-4 sanket">
+          <div class="uk-card uk-card-default uk-card-body">
+            <h3 class="uk-card-title"><i class="fa-solid fa-dumpster-fire"></i></h3>
+            <p class="fs-4 text-black">Garden Maintenance.</p>
+          </div>
+        </div>
+        <div class="my-4 sanket">
+          <div class="uk-card uk-card-default uk-card-body" uk-scrollspy-class="uk-animation-slide-top">
+            <h3 class="uk-card-title"><i class="fa-solid fa-wheat-awn"></i></h3>
+            <p class="fs-4 text-black">Garden Overhauls.</p>
+          </div>
+        </div>
+        <div class="my-4 sanket">
+          <div class="uk-card uk-card-default uk-card-body">
+            <h3 class="uk-card-title"><i class="fa-solid fa-money-bill-wheat"></i></i></h3>
+            <p class="fs-4 text-black">Landscape Design.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <hr>
+        </div>
+      </div>
+      <!-- number -->
+      <div class="counter">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-3">
+              <div class="count-up">
+                <h2><i class="fa-solid fa-circle-check" style="color: #ffffff;"></i></h2>
+                <p class="counter-count">2998</p>
+                <h3 style="color: #ffffff;">Projects Complete</h3>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3">
+              <div class="count-up">
+                <h2><i class="fa-solid fa-circle-check" style="color: #ffffff;"></i></h2>
+                <p class="counter-count">3067</p>
+                <h3 style="color: #ffffff;">Satisfactions Rate</h3>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3">
+              <div class="count-up">
+                <h2><i class="fa-solid fa-circle-check" style="color: #ffffff;"></i></h2>
+                <p class="counter-count">3589</p>
+                <h3 style="color: #ffffff;">Expert Team Member</h3>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3">
+              <div class="count-up">
+                <h2><i class="fa-solid fa-circle-check" style="color: #ffffff;"></i></h2>
+                <p class="counter-count">1742</p>
+                <h3 style="color: #ffffff;">Awards Winning</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section 03 -->
+    <div class="section_3">
+      <div class="row my-5 mx-5">
+        <div class="col-3">
+          <b>Gardening</b>
+          <div class="sis">
+            <i class="fa-solid fa-circle-check ss" style="color: #ffffff;"></i>
+          </div>
+        </div>
+        <div class="col-3">
+          <b>Landscape</b>
+          <div class="sis">
+            <i class="fa-solid fa-circle-check ss" style="color: #ffffff;"></i>
+          </div>
+        </div>
+        <div class="col-3">
+          <b>Garden</b><br><b>Overhauls</b>
+          <div class="sis_2">
+            <i class="fa-solid fa-circle-check ss" style="color: #ffffff;"></i>
+          </div>
+        </div>
+        <div class="col-3">
+          <b>Nature Green</b>
+          <div class="sis_3">
+            <i class="fa-solid fa-circle-check ss" style="color: #ffffff;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section 04 -->
+    <div class="section_4 ">
+      <div class="row bg-light p-lg-5">
+        <div class="col-6 ">
+          <img src="img/about-6.png" alt="">
+        </div>
+        <div class="col-6">
+          <i class="fa-solid fa-seedling section_4icon">About Gardening</i>
+          <p class="section_4tex"><b>Perfect Gardening The Result Of Nature</b></p>
+          <p>Sed ut perspiciatis unde omnis iste natus voluptatem accusantiue doloremque laudantium totam rem aperiam,
+            eaque ipsa quae abilloy inventore</p>
+          <div class="row mt-4">
+            <div class="col-6"><i class="fa-solid fa-angles-right"></i><b> Gardens</b>
+              <p>Ut enim minima veniam nostrum exercitationem corporis</p>
+            </div>
+            <div class="col-6"><i class="fa-solid fa-angles-right"></i><b> Gardens</b>
+              <p>Ut enim minima veniam nostrum exercitationem corporis</p>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-6"><i class="fa-solid fa-angles-right"></i><b> Maintenance</b>
+              <p>Ut enim minima veniam nostrum exercitationem corporis</p>
+            </div>
+            <div class="col-6"><i class="fa-solid fa-angles-right"></i><b> Event & Programs</b>
+              <p>Ut enim minima veniam nostrum exercitationem corporis</p>
+            </div>
+          </div>
+          <p class="my-4">Sed ut perspiciatis unde omnis iste natus voluptatem accusantiue doloremque laudantium totam
+            rem aperiam,
+            eaque ipsa quae abilloy inventore</p>
+          <div class="row mt-4">
+            <div class="col-6"><i class="fa-solid fa-angles-right"></i><b> Maintenance</b>
+              <p>Ut enim minima veniam nostrum exercitationem corporis</p>
+            </div>
+            <div class="col-6"><i class="fa-solid fa-angles-right"></i><b> Event & Programs</b>
+              <p>Ut enim minima veniam nostrum exercitationem corporis</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section 05 -->
+    <div class="row my-5">
+      <div class="col-12 text-center ">
+        <i class="fa-solid fa-seedling" style="font-size: 30px;">What We Do</i>
+        <p class="tex-4"><b>We Care Your Garden & Landscape</b></p>
+        <div class="uk-child-width-1-4@m" uk-grid
+          uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <h1 class="my-2"><i class="fa-solid fa-utensils"></i></h1>
+              <h3 class="uk-card-title fs-6"><b> Spring Cleaning </b></h3>
+              <p class="tex-5">Sed ut perspiciatis omnisey natus voluptate accusa</p>
+              <div class="c1">
+                <i class="fa-solid fa-circle-check s1" style="color: #ffffff;"></i>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <h1><i class="fa-solid fa-cloud-moon-rain"></i></h1>
+              <h3 class="uk-card-title fs-6"><b> Irrigation & Drainage </b></h3>
+              <p class="tex-5">Quis autem reprehe volutate esse quam molestiae</p>
+              <div class="c1">
+                <i class="fa-solid fa-circle-check s1" style="color: #ffffff;"></i>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <h1><i class="fa-solid fa-building-wheat"></i></h1>
+              <h3 class="uk-card-title fs-6"><b> Snow & Ice Removal </b></h3>
+              <p class="tex-5">We denounce with righteous indignation and dislike</p>
+              <div class="c1">
+                <i class="fa-solid fa-circle-check s1" style="color: #ffffff;"></i>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <h1><i class="fa-solid fa-tree"></i></h1>
+              <h3 class="uk-card-title fs-6"><b> Lawn Fertilization </b></h3>
+              <p class="tex-5"> To take triviale exam which undertakes laborious</p>
+              <div class="c1">
+                <i class="fa-solid fa-circle-check s1" style="color: #ffffff;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- section-6 -->
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+
+      <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+        <li>
+          <img src="img/project-1.jpg" width="400" height="600" alt="">
+          <div class="uk-position-center uk-panel">
+            <h4 class="a-tex-1">Garden caring</h4>
+          </div>
+        </li>
+        <li>
+          <img src="img/project-2.jpg" width="400" height="600" alt="">
+          <div class="uk-position-center uk-panel">
+            <h4 class="a-tex">plants greenhouse</h4>
+          </div>
+        </li>
+        <li>
+          <img src="img/project-3.jpg" width="400" height="600" alt="">
+          <div class="uk-position-center uk-panel">
+            <h4 class="a-tex-2">water in Garden</h4>
+          </div>
+        </li>
+        <li>
+          <img src="img/project-4.jpg" width="400" height="600" alt="">
+          <div class="uk-position-center uk-panel">
+            <h4 class="a-tex-3">water in Garden</h4>
+          </div>
+        </li>
+        <li>
+          <img src="img/project-1.jpg" width="400" height="600" alt="">
+          <div class="uk-position-center uk-panel">
+            <h4 class="a-tex-1">Garden caring</h4>
+          </div>
+        </li>
+        <li>
+          <img src="img/project-2.jpg" width="400" height="600" alt="">
+          <div class="uk-position-center uk-panel">
+            <h4 class="a-tex">plants greenhouse</h4>
+          </div>
+        </li>
+        <li>
+          <img src="img/project-3.jpg" width="400" height="600" alt="">
+          <div class="uk-position-center uk-panel">
+            <h4 class="a-tex-2">water in Garden</h4>
+          </div>
+        </li>
+        <li>
+          <img src="img/project-4.jpg" width="400" height="600" alt="">
+          <div class="uk-position-center uk-panel">
+            <h4 class="a-tex-4">water in Garden</h4>
+          </div>
+        </li>
+
+      </ul>
+
+      <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-sl idenav-previous
+        uk-slider-item="previous"></a>
+      <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+        uk-slider-item="next"></a>
+
+    </div>
+
+    <!-- section-7 -->
+    <div class="row my-5">
+      <div class="col-12 text-center ">
+        <i class="fa-solid fa-seedling" style="font-size: 30px; padding: 10px;">Team Member</i>
+        <p class="tex-4"><b>Meet Our Expert Gardener</b></p>
+      </div>
+      <!-- -----------------------img ----------------------------------------------------------->
+
+      <div class="whos-speaking-area speakers pad100">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-title text-center">
+                <div class="title-text mb50">
+                  <h2>All Speakers</h2>
+                </div>
+              </div>
+            </div>
+            <!-- /col end-->
+          </div>
+          <!-- /.row  end-->
+          <div class="row mb50">
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+              <div class="speakers xs-mb30">
+                <div class="spk-img">
+                  <img class="img-fluid" src="img/team-10.jpg" alt="trainer-img" />
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-camera"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-life-ring"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="spk-info">
+                  <h3>Harman Kardon</h3>
+                  <p>CEO,Mockplus</p>
+                </div>
+              </div>
+            </div>
+            <!-- /col end-->
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+              <div class="speakers xs-mb30">
+                <div class="spk-img">
+                  <img class="img-fluid" src="img/team-11.jpg" alt="trainer-img" />
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-camera"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-life-ring"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="spk-info">
+                  <h3>Toni Duggan</h3>
+                  <p>GM, Pixelperfect</p>
+                </div>
+              </div>
+            </div>
+            <!-- /col end-->
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+              <div class="speakers xs-mb30">
+                <div class="spk-img">
+                  <img class="img-fluid" src="img/team-12.jpg" alt="trainer-img" />
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-camera"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-life-ring"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="spk-info">
+                  <h3>Philipp Lahm</h3>
+                  <p>Digital photography</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- /row end-->
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+              <div class="speakers xs-mb30">
+                <div class="spk-img">
+
+                  <p class="ttex"><b> 25+ </b></p>
+                  <p class="ttex-2">Experience Team Member</p>
+
+                </div>
+                <div class="spk-info">
+                  <a href="https://gadden-react.vercel.app/team">View All Member </a>
+                </div>
+              </div>
+            </div>
+            <!-- row and  -->
+            <div class="row">
+              <div class="offset-2 no-gutter"></div>
+              <!-- /col end-->
+
+            </div>
+            <!-- /col end-->
+
+            <!-- /col end-->
+          </div>
+          <!-- /row end-->
+        </div>
+        <!-- /container end-->
+      </div>
+      <!-- section-8 -->
+      <div class="row">
+        <div class="col-6 my-5 pl-5">
+          <img src="img/features-10.png" alt="">
+        </div>
+        <div class="col-6 my-5 pl-5">
+          <i class="fa-solid fa-seedling fs-3"></i><b class="fs-2 mx-2"> Modern Gardening</b>
+          <p class="mt-3 fs-2"><b>We Offers Landscape & Tree <br> Plantations</b></p>
+          <p>Quis autem vel eum iure reprehenderit qui in voluptate velit esse quam nihil molestiae consequatur vel
+          illum qui dolorem</p>
+          <i class="fa-solid fa-arrow-trend-up fs-4"></i><b class="fs-4 mx-2">Quality Gardening</b>
+          <span><hr class="section_tex2"></span>
+          <i class="fa-solid fa-arrow-trend-up fs-4"></i><b class="fs-4 mx-2">Dedicated Team Members</b>
+          <span><hr class="section_tex2"></span>
+          <i class="fa-solid fa-arrow-trend-up fs-4"></i><b class="fs-4 mx-2">Guarantee Service & No Hidden Cost</b>
+          <span><hr class="section_tex2"></span>
+          <button type="button" class="btn btn-primary w-25">Primary</button>
+        </div>
+      </div>
+
+      <!-- section-9 -->
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+      </div>
+
+      <footer class="text-center text-lg-start bg-white text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+      
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">   
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3 text-secondary"></i>Company name
+                </h6>
+                <p>
+                  Here you can use rows and columns to organize your footer content. Lorem ipsum
+                  dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Products
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Angular</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">React</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Vue</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Laravel</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Useful links
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+                <p>
+                  <i class="fas fa-envelope me-3 text-secondary"></i>
+                  info@example.com
+                </p>
+                <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="gardden.html">Deep Maniya</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+      
+    </div>
+
+    
+
+
+
+    <!-- JS -->
+    <script>
+      $('.counter-count').each(function () {
+        $(this).prop('Counter', 0).animate({
+          Counter: $(this).text()
+        }, {
+
+          //chnage count up speed here
+          duration: 60000,
+          easing: 'swing',
+          step: function (now) {
+            $(this).text(Math.ceil(now));
+          }
+        });
+      });
+
+      // -----------------------img--------------------
+      $(".hover").mouseleave(
+        function () {
+          $(this).removeClass("hover");
+        }
+      );
+
+
+      $(".active").mouseleave(
+        function () {
+          $(this).removeClass("active");
+        }
+      );
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/js/uikit-icons.min.js"></script>
+</body>
+
+</html>
